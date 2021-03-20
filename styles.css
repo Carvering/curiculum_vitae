@@ -1,0 +1,102 @@
+.photo-profil{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    background-image: url("../resources/photocv.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.part-left-ext{
+    background-color: rgb(255, 242, 224);
+}
+
+.part-left-int{
+    background-color :rgba(19, 117, 122, 0.959);
+    color: white;
+}
+
+.part-right-ext{
+    background-color: rgb(255, 242, 224);
+}
+
+.part-right-int{
+    background-color :rgb(255, 242, 224);
+    color: white;
+}
+
+h1{
+    font-family: Century Gothic;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.part-left-int > .card-body{
+    color: white;
+}
+
+.part-right-int > .card-body{
+    color: black;
+}
+
+.part-left-int > .p{
+    color: white;
+}
+
+h3{
+    font-family: 'Segoe UI';
+}
+
+.mail{
+    text-decoration: none;
+    color: white;
+}
+
+.card-head{
+    background:linear-gradient(to right, rgba(19, 117, 122, 0.959),rgb(245, 188, 109));
+    color: white;
+}
+
+h5,h6{
+    font-family: 'Segoe UI' ; 
+}
+  
+p{
+    font-family: 'Segoe UI';
+}
+
+.fas{
+    color: rgb(245, 188, 109);
+}
+
+.progress-bar{
+    background-color: rgb(255, 242, 224);
+    color: white;
+    border-color: rgb(255, 242, 224);
+}
+
+.currently-btn{
+    background-color: rgb(245, 188, 109);
+    border-color: rgb(245, 188, 109);
+    
+}
+.currently-btn:hover{
+    background-color: rgba(19, 117, 122, 0.959);
+    color: rgb(245, 188, 109);
+    border-color: rgba(19, 117, 122, 0.959);
+}
+
+.pdf{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(19, 117, 122, 0.959);
+}
+.pdf:hover{
+    background-color: rgba(38, 181, 189, 0.959);
+    color: rgba(255, 255, 255, 0.959);
+}
